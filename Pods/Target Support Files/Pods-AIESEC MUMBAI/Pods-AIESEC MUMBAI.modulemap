@@ -1,0 +1,6 @@
+framework module Pods_AIESEC_MUMBAI {
+  umbrella header "Pods-AIESEC MUMBAI-umbrella.h"
+
+  export *
+  module * { export * }
+}

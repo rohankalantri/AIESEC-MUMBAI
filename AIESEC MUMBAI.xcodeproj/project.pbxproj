@@ -1,0 +1,827 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AAD3354C41E64BC91BFBAE0 /* Pods_AIESEC_MUMBAI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 934D0D0972F15E971D67E7B9 /* Pods_AIESEC_MUMBAI.framework */; };
+		B523897720693A1700C0337C /* TeamProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B523897620693A1700C0337C /* TeamProfileViewController.swift */; };
+		B52389792069620A00C0337C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52389782069620A00C0337C /* ProfileViewController.swift */; };
+		B523897B206974A800C0337C /* ReminderDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B523897A206974A800C0337C /* ReminderDetailsViewController.swift */; };
+		B537610F2062905D005D7D24 /* HubCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B537610E2062905D005D7D24 /* HubCollectionViewController.swift */; };
+		B537611120629280005D7D24 /* HubCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B537611020629280005D7D24 /* HubCollectionViewCell.swift */; };
+		B54AD7E52063D0AE002E87A6 /* DepartmentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54AD7E42063D0AE002E87A6 /* DepartmentsTableViewController.swift */; };
+		B54AD7E72063D455002E87A6 /* ResourceListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54AD7E62063D455002E87A6 /* ResourceListTableViewController.swift */; };
+		B54AD7E92063E6FC002E87A6 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54AD7E82063E6FC002E87A6 /* WebViewController.swift */; };
+		B56EC053206A9D3D0091B65A /* ArticleDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56EC052206A9D3D0091B65A /* ArticleDetailsViewController.swift */; };
+		B5992517205CC0350083F4C2 /* AddUserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5992516205CC0340083F4C2 /* AddUserDetailsViewController.swift */; };
+		B5A5E09D202C9A7C00ECDA8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A5E09C202C9A7C00ECDA8E /* AppDelegate.swift */; };
+		B5A5E0A1202C9A7C00ECDA8E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A5E0A0202C9A7C00ECDA8E /* SecondViewController.swift */; };
+		B5A5E0A4202C9A7C00ECDA8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5A5E0A2202C9A7C00ECDA8E /* Main.storyboard */; };
+		B5A5E0A6202C9A7C00ECDA8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5A5E0A5202C9A7C00ECDA8E /* Assets.xcassets */; };
+		B5A5E0A9202C9A7D00ECDA8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5A5E0A7202C9A7D00ECDA8E /* LaunchScreen.storyboard */; };
+		B5A5E0B4202C9A7D00ECDA8E /* AIESEC_MUMBAITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A5E0B3202C9A7D00ECDA8E /* AIESEC_MUMBAITests.swift */; };
+		B5A5E0BF202C9A7D00ECDA8E /* AIESEC_MUMBAIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A5E0BE202C9A7D00ECDA8E /* AIESEC_MUMBAIUITests.swift */; };
+		B5A5E0CD202C9F0000ECDA8E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B5A5E0CC202C9EFF00ECDA8E /* GoogleService-Info.plist */; };
+		B5A5E0D1202CBB4100ECDA8E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A5E0D0202CBB4100ECDA8E /* LoginViewController.swift */; };
+		B5A5E0D52030211000ECDA8E /* UserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A5E0D42030210F00ECDA8E /* UserDetails.swift */; };
+		B5DEC74A2035C3BF00109520 /* NewsAdditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DEC7492035C3BF00109520 /* NewsAdditionViewController.swift */; };
+		B5DEC74C20395A3300109520 /* NewsDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DEC74B20395A3300109520 /* NewsDetails.swift */; };
+		B5FFC1822051822C006DD09A /* NewReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FFC1812051822C006DD09A /* NewReminderViewController.swift */; };
+		B5FFC184205969B5006DD09A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FFC183205969B4006DD09A /* SignUpViewController.swift */; };
+		BD2510266E300A820F6BC942 /* Pods_AIESEC_MUMBAITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6996218815732422C5D01BE /* Pods_AIESEC_MUMBAITests.framework */; };
+		EC0F4CFBE78DC7992AF66471 /* Pods_AIESEC_MUMBAIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F894318F1162B179F85CC1E6 /* Pods_AIESEC_MUMBAIUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5A5E0B0202C9A7D00ECDA8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5A5E091202C9A7C00ECDA8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5A5E098202C9A7C00ECDA8E;
+			remoteInfo = "AIESEC MUMBAI";
+		};
+		B5A5E0BB202C9A7D00ECDA8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5A5E091202C9A7C00ECDA8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5A5E098202C9A7C00ECDA8E;
+			remoteInfo = "AIESEC MUMBAI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		204B55902E2BF4FEFCDE3A35 /* Pods-AIESEC MUMBAITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIESEC MUMBAITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AIESEC MUMBAITests/Pods-AIESEC MUMBAITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3058940ABE44204B6D429E5C /* Pods-AIESEC MUMBAITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIESEC MUMBAITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AIESEC MUMBAITests/Pods-AIESEC MUMBAITests.release.xcconfig"; sourceTree = "<group>"; };
+		3C0C1666E42923924944A5C3 /* Pods-AIESEC MUMBAI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIESEC MUMBAI.release.xcconfig"; path = "Pods/Target Support Files/Pods-AIESEC MUMBAI/Pods-AIESEC MUMBAI.release.xcconfig"; sourceTree = "<group>"; };
+		604877322A297443EE14093A /* Pods-AIESEC MUMBAI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIESEC MUMBAI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AIESEC MUMBAI/Pods-AIESEC MUMBAI.debug.xcconfig"; sourceTree = "<group>"; };
+		934D0D0972F15E971D67E7B9 /* Pods_AIESEC_MUMBAI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AIESEC_MUMBAI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B523897620693A1700C0337C /* TeamProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamProfileViewController.swift; sourceTree = "<group>"; };
+		B52389782069620A00C0337C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		B523897A206974A800C0337C /* ReminderDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDetailsViewController.swift; sourceTree = "<group>"; };
+		B537610E2062905D005D7D24 /* HubCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HubCollectionViewController.swift; sourceTree = "<group>"; };
+		B537611020629280005D7D24 /* HubCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HubCollectionViewCell.swift; sourceTree = "<group>"; };
+		B54AD7E42063D0AE002E87A6 /* DepartmentsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentsTableViewController.swift; sourceTree = "<group>"; };
+		B54AD7E62063D455002E87A6 /* ResourceListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceListTableViewController.swift; sourceTree = "<group>"; };
+		B54AD7E82063E6FC002E87A6 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		B56EC052206A9D3D0091B65A /* ArticleDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailsViewController.swift; sourceTree = "<group>"; };
+		B5992516205CC0340083F4C2 /* AddUserDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserDetailsViewController.swift; sourceTree = "<group>"; };
+		B5A5E099202C9A7C00ECDA8E /* AIESEC MUMBAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AIESEC MUMBAI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5A5E09C202C9A7C00ECDA8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5A5E0A0202C9A7C00ECDA8E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B5A5E0A3202C9A7C00ECDA8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5A5E0A5202C9A7C00ECDA8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5A5E0A8202C9A7D00ECDA8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5A5E0AA202C9A7D00ECDA8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5A5E0AF202C9A7D00ECDA8E /* AIESEC MUMBAITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AIESEC MUMBAITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5A5E0B3202C9A7D00ECDA8E /* AIESEC_MUMBAITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIESEC_MUMBAITests.swift; sourceTree = "<group>"; };
+		B5A5E0B5202C9A7D00ECDA8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5A5E0BA202C9A7D00ECDA8E /* AIESEC MUMBAIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AIESEC MUMBAIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5A5E0BE202C9A7D00ECDA8E /* AIESEC_MUMBAIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIESEC_MUMBAIUITests.swift; sourceTree = "<group>"; };
+		B5A5E0C0202C9A7D00ECDA8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5A5E0CC202C9EFF00ECDA8E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Firebase/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B5A5E0D0202CBB4100ECDA8E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B5A5E0D42030210F00ECDA8E /* UserDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetails.swift; sourceTree = "<group>"; };
+		B5DEC7492035C3BF00109520 /* NewsAdditionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAdditionViewController.swift; sourceTree = "<group>"; };
+		B5DEC74B20395A3300109520 /* NewsDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetails.swift; sourceTree = "<group>"; };
+		B5FFC1812051822C006DD09A /* NewReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReminderViewController.swift; sourceTree = "<group>"; };
+		B5FFC183205969B4006DD09A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		C748BE798308BFDB9C03F079 /* Pods-AIESEC MUMBAIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIESEC MUMBAIUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AIESEC MUMBAIUITests/Pods-AIESEC MUMBAIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA7B977B13A1A38A92F90816 /* Pods-AIESEC MUMBAIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIESEC MUMBAIUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AIESEC MUMBAIUITests/Pods-AIESEC MUMBAIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F6996218815732422C5D01BE /* Pods_AIESEC_MUMBAITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AIESEC_MUMBAITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F894318F1162B179F85CC1E6 /* Pods_AIESEC_MUMBAIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AIESEC_MUMBAIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5A5E096202C9A7C00ECDA8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AAD3354C41E64BC91BFBAE0 /* Pods_AIESEC_MUMBAI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A5E0AC202C9A7D00ECDA8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2510266E300A820F6BC942 /* Pods_AIESEC_MUMBAITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A5E0B7202C9A7D00ECDA8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0F4CFBE78DC7992AF66471 /* Pods_AIESEC_MUMBAIUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B2B87566182DF2ED6030D85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				934D0D0972F15E971D67E7B9 /* Pods_AIESEC_MUMBAI.framework */,
+				F6996218815732422C5D01BE /* Pods_AIESEC_MUMBAITests.framework */,
+				F894318F1162B179F85CC1E6 /* Pods_AIESEC_MUMBAIUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5A5E090202C9A7C00ECDA8E = {
+			isa = PBXGroup;
+			children = (
+				B5A5E09B202C9A7C00ECDA8E /* AIESEC MUMBAI */,
+				B5A5E0B2202C9A7D00ECDA8E /* AIESEC MUMBAITests */,
+				B5A5E0BD202C9A7D00ECDA8E /* AIESEC MUMBAIUITests */,
+				B5A5E09A202C9A7C00ECDA8E /* Products */,
+				FED042C4B73C4D7963A06843 /* Pods */,
+				8B2B87566182DF2ED6030D85 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B5A5E09A202C9A7C00ECDA8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5A5E099202C9A7C00ECDA8E /* AIESEC MUMBAI.app */,
+				B5A5E0AF202C9A7D00ECDA8E /* AIESEC MUMBAITests.xctest */,
+				B5A5E0BA202C9A7D00ECDA8E /* AIESEC MUMBAIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5A5E09B202C9A7C00ECDA8E /* AIESEC MUMBAI */ = {
+			isa = PBXGroup;
+			children = (
+				B5A5E0D0202CBB4100ECDA8E /* LoginViewController.swift */,
+				B5A5E09C202C9A7C00ECDA8E /* AppDelegate.swift */,
+				B537610E2062905D005D7D24 /* HubCollectionViewController.swift */,
+				B5A5E0A0202C9A7C00ECDA8E /* SecondViewController.swift */,
+				B523897A206974A800C0337C /* ReminderDetailsViewController.swift */,
+				B5FFC1812051822C006DD09A /* NewReminderViewController.swift */,
+				B5A5E0A2202C9A7C00ECDA8E /* Main.storyboard */,
+				B5A5E0A5202C9A7C00ECDA8E /* Assets.xcassets */,
+				B5A5E0A7202C9A7D00ECDA8E /* LaunchScreen.storyboard */,
+				B5A5E0AA202C9A7D00ECDA8E /* Info.plist */,
+				B5A5E0CC202C9EFF00ECDA8E /* GoogleService-Info.plist */,
+				B5A5E0D42030210F00ECDA8E /* UserDetails.swift */,
+				B5DEC7492035C3BF00109520 /* NewsAdditionViewController.swift */,
+				B5DEC74B20395A3300109520 /* NewsDetails.swift */,
+				B5FFC183205969B4006DD09A /* SignUpViewController.swift */,
+				B5992516205CC0340083F4C2 /* AddUserDetailsViewController.swift */,
+				B537611020629280005D7D24 /* HubCollectionViewCell.swift */,
+				B54AD7E42063D0AE002E87A6 /* DepartmentsTableViewController.swift */,
+				B54AD7E62063D455002E87A6 /* ResourceListTableViewController.swift */,
+				B54AD7E82063E6FC002E87A6 /* WebViewController.swift */,
+				B523897620693A1700C0337C /* TeamProfileViewController.swift */,
+				B52389782069620A00C0337C /* ProfileViewController.swift */,
+				B56EC052206A9D3D0091B65A /* ArticleDetailsViewController.swift */,
+			);
+			path = "AIESEC MUMBAI";
+			sourceTree = "<group>";
+		};
+		B5A5E0B2202C9A7D00ECDA8E /* AIESEC MUMBAITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5A5E0B3202C9A7D00ECDA8E /* AIESEC_MUMBAITests.swift */,
+				B5A5E0B5202C9A7D00ECDA8E /* Info.plist */,
+			);
+			path = "AIESEC MUMBAITests";
+			sourceTree = "<group>";
+		};
+		B5A5E0BD202C9A7D00ECDA8E /* AIESEC MUMBAIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5A5E0BE202C9A7D00ECDA8E /* AIESEC_MUMBAIUITests.swift */,
+				B5A5E0C0202C9A7D00ECDA8E /* Info.plist */,
+			);
+			path = "AIESEC MUMBAIUITests";
+			sourceTree = "<group>";
+		};
+		FED042C4B73C4D7963A06843 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				604877322A297443EE14093A /* Pods-AIESEC MUMBAI.debug.xcconfig */,
+				3C0C1666E42923924944A5C3 /* Pods-AIESEC MUMBAI.release.xcconfig */,
+				204B55902E2BF4FEFCDE3A35 /* Pods-AIESEC MUMBAITests.debug.xcconfig */,
+				3058940ABE44204B6D429E5C /* Pods-AIESEC MUMBAITests.release.xcconfig */,
+				C748BE798308BFDB9C03F079 /* Pods-AIESEC MUMBAIUITests.debug.xcconfig */,
+				DA7B977B13A1A38A92F90816 /* Pods-AIESEC MUMBAIUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5A5E098202C9A7C00ECDA8E /* AIESEC MUMBAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5A5E0C3202C9A7D00ECDA8E /* Build configuration list for PBXNativeTarget "AIESEC MUMBAI" */;
+			buildPhases = (
+				66F11F419A5F5F5FE5CC3D14 /* [CP] Check Pods Manifest.lock */,
+				B5A5E095202C9A7C00ECDA8E /* Sources */,
+				B5A5E096202C9A7C00ECDA8E /* Frameworks */,
+				B5A5E097202C9A7C00ECDA8E /* Resources */,
+				77559A417467CD8FE3EEE11C /* [CP] Embed Pods Frameworks */,
+				E67E7912AD6B3085EB2AF751 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AIESEC MUMBAI";
+			productName = "AIESEC MUMBAI";
+			productReference = B5A5E099202C9A7C00ECDA8E /* AIESEC MUMBAI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5A5E0AE202C9A7D00ECDA8E /* AIESEC MUMBAITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5A5E0C6202C9A7D00ECDA8E /* Build configuration list for PBXNativeTarget "AIESEC MUMBAITests" */;
+			buildPhases = (
+				C65FE4D46484FB9603AFF511 /* [CP] Check Pods Manifest.lock */,
+				B5A5E0AB202C9A7D00ECDA8E /* Sources */,
+				B5A5E0AC202C9A7D00ECDA8E /* Frameworks */,
+				B5A5E0AD202C9A7D00ECDA8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5A5E0B1202C9A7D00ECDA8E /* PBXTargetDependency */,
+			);
+			name = "AIESEC MUMBAITests";
+			productName = "AIESEC MUMBAITests";
+			productReference = B5A5E0AF202C9A7D00ECDA8E /* AIESEC MUMBAITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5A5E0B9202C9A7D00ECDA8E /* AIESEC MUMBAIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5A5E0C9202C9A7D00ECDA8E /* Build configuration list for PBXNativeTarget "AIESEC MUMBAIUITests" */;
+			buildPhases = (
+				F503DB47EE29E21BB27E7896 /* [CP] Check Pods Manifest.lock */,
+				B5A5E0B6202C9A7D00ECDA8E /* Sources */,
+				B5A5E0B7202C9A7D00ECDA8E /* Frameworks */,
+				B5A5E0B8202C9A7D00ECDA8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5A5E0BC202C9A7D00ECDA8E /* PBXTargetDependency */,
+			);
+			name = "AIESEC MUMBAIUITests";
+			productName = "AIESEC MUMBAIUITests";
+			productReference = B5A5E0BA202C9A7D00ECDA8E /* AIESEC MUMBAIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5A5E091202C9A7C00ECDA8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Rohan Kalantri";
+				TargetAttributes = {
+					B5A5E098202C9A7C00ECDA8E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					B5A5E0AE202C9A7D00ECDA8E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B5A5E098202C9A7C00ECDA8E;
+					};
+					B5A5E0B9202C9A7D00ECDA8E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B5A5E098202C9A7C00ECDA8E;
+					};
+				};
+			};
+			buildConfigurationList = B5A5E094202C9A7C00ECDA8E /* Build configuration list for PBXProject "AIESEC MUMBAI" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5A5E090202C9A7C00ECDA8E;
+			productRefGroup = B5A5E09A202C9A7C00ECDA8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5A5E098202C9A7C00ECDA8E /* AIESEC MUMBAI */,
+				B5A5E0AE202C9A7D00ECDA8E /* AIESEC MUMBAITests */,
+				B5A5E0B9202C9A7D00ECDA8E /* AIESEC MUMBAIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5A5E097202C9A7C00ECDA8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A5E0A9202C9A7D00ECDA8E /* LaunchScreen.storyboard in Resources */,
+				B5A5E0CD202C9F0000ECDA8E /* GoogleService-Info.plist in Resources */,
+				B5A5E0A6202C9A7C00ECDA8E /* Assets.xcassets in Resources */,
+				B5A5E0A4202C9A7C00ECDA8E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A5E0AD202C9A7D00ECDA8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A5E0B8202C9A7D00ECDA8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		66F11F419A5F5F5FE5CC3D14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AIESEC MUMBAI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77559A417467CD8FE3EEE11C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AIESEC MUMBAI/Pods-AIESEC MUMBAI-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftOverlays/SwiftOverlays.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftOverlays.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AIESEC MUMBAI/Pods-AIESEC MUMBAI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C65FE4D46484FB9603AFF511 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AIESEC MUMBAITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E67E7912AD6B3085EB2AF751 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AIESEC MUMBAI/Pods-AIESEC MUMBAI-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseTwitterAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseTwitterAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AIESEC MUMBAI/Pods-AIESEC MUMBAI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F503DB47EE29E21BB27E7896 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AIESEC MUMBAIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5A5E095202C9A7C00ECDA8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5FFC184205969B5006DD09A /* SignUpViewController.swift in Sources */,
+				B537610F2062905D005D7D24 /* HubCollectionViewController.swift in Sources */,
+				B5A5E0D1202CBB4100ECDA8E /* LoginViewController.swift in Sources */,
+				B56EC053206A9D3D0091B65A /* ArticleDetailsViewController.swift in Sources */,
+				B5A5E0A1202C9A7C00ECDA8E /* SecondViewController.swift in Sources */,
+				B5A5E09D202C9A7C00ECDA8E /* AppDelegate.swift in Sources */,
+				B52389792069620A00C0337C /* ProfileViewController.swift in Sources */,
+				B5992517205CC0350083F4C2 /* AddUserDetailsViewController.swift in Sources */,
+				B5A5E0D52030211000ECDA8E /* UserDetails.swift in Sources */,
+				B5DEC74A2035C3BF00109520 /* NewsAdditionViewController.swift in Sources */,
+				B537611120629280005D7D24 /* HubCollectionViewCell.swift in Sources */,
+				B54AD7E72063D455002E87A6 /* ResourceListTableViewController.swift in Sources */,
+				B54AD7E92063E6FC002E87A6 /* WebViewController.swift in Sources */,
+				B523897720693A1700C0337C /* TeamProfileViewController.swift in Sources */,
+				B5FFC1822051822C006DD09A /* NewReminderViewController.swift in Sources */,
+				B54AD7E52063D0AE002E87A6 /* DepartmentsTableViewController.swift in Sources */,
+				B5DEC74C20395A3300109520 /* NewsDetails.swift in Sources */,
+				B523897B206974A800C0337C /* ReminderDetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A5E0AB202C9A7D00ECDA8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A5E0B4202C9A7D00ECDA8E /* AIESEC_MUMBAITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A5E0B6202C9A7D00ECDA8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A5E0BF202C9A7D00ECDA8E /* AIESEC_MUMBAIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5A5E0B1202C9A7D00ECDA8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5A5E098202C9A7C00ECDA8E /* AIESEC MUMBAI */;
+			targetProxy = B5A5E0B0202C9A7D00ECDA8E /* PBXContainerItemProxy */;
+		};
+		B5A5E0BC202C9A7D00ECDA8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5A5E098202C9A7C00ECDA8E /* AIESEC MUMBAI */;
+			targetProxy = B5A5E0BB202C9A7D00ECDA8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5A5E0A2202C9A7C00ECDA8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5A5E0A3202C9A7C00ECDA8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5A5E0A7202C9A7D00ECDA8E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5A5E0A8202C9A7D00ECDA8E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5A5E0C1202C9A7D00ECDA8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5A5E0C2202C9A7D00ECDA8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5A5E0C4202C9A7D00ECDA8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 604877322A297443EE14093A /* Pods-AIESEC MUMBAI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7PRWP7J536;
+				INFOPLIST_FILE = "AIESEC MUMBAI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rohankalantri.AIESEC-MUMBAI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B5A5E0C5202C9A7D00ECDA8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C0C1666E42923924944A5C3 /* Pods-AIESEC MUMBAI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7PRWP7J536;
+				INFOPLIST_FILE = "AIESEC MUMBAI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rohankalantri.AIESEC-MUMBAI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B5A5E0C7202C9A7D00ECDA8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 204B55902E2BF4FEFCDE3A35 /* Pods-AIESEC MUMBAITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AIESEC MUMBAITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rohankalantri.AIESEC-MUMBAITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AIESEC MUMBAI.app/AIESEC MUMBAI";
+			};
+			name = Debug;
+		};
+		B5A5E0C8202C9A7D00ECDA8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3058940ABE44204B6D429E5C /* Pods-AIESEC MUMBAITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AIESEC MUMBAITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rohankalantri.AIESEC-MUMBAITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AIESEC MUMBAI.app/AIESEC MUMBAI";
+			};
+			name = Release;
+		};
+		B5A5E0CA202C9A7D00ECDA8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C748BE798308BFDB9C03F079 /* Pods-AIESEC MUMBAIUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AIESEC MUMBAIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rohankalantri.AIESEC-MUMBAIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AIESEC MUMBAI";
+			};
+			name = Debug;
+		};
+		B5A5E0CB202C9A7D00ECDA8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA7B977B13A1A38A92F90816 /* Pods-AIESEC MUMBAIUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AIESEC MUMBAIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rohankalantri.AIESEC-MUMBAIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AIESEC MUMBAI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5A5E094202C9A7C00ECDA8E /* Build configuration list for PBXProject "AIESEC MUMBAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5A5E0C1202C9A7D00ECDA8E /* Debug */,
+				B5A5E0C2202C9A7D00ECDA8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5A5E0C3202C9A7D00ECDA8E /* Build configuration list for PBXNativeTarget "AIESEC MUMBAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5A5E0C4202C9A7D00ECDA8E /* Debug */,
+				B5A5E0C5202C9A7D00ECDA8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5A5E0C6202C9A7D00ECDA8E /* Build configuration list for PBXNativeTarget "AIESEC MUMBAITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5A5E0C7202C9A7D00ECDA8E /* Debug */,
+				B5A5E0C8202C9A7D00ECDA8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5A5E0C9202C9A7D00ECDA8E /* Build configuration list for PBXNativeTarget "AIESEC MUMBAIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5A5E0CA202C9A7D00ECDA8E /* Debug */,
+				B5A5E0CB202C9A7D00ECDA8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5A5E091202C9A7C00ECDA8E /* Project object */;
+}
